@@ -504,7 +504,7 @@
 					</Style>
 				</DataGrid.Styles>
 				<DataGrid.Columns>
-					<DataGridTemplateColumn IsVisible="{Binding ShowModThumbnails}" Header="" Width="150" CanUserResize="False" CanUserSort="False">
+					<DataGridTemplateColumn IsVisible="true" Header="" Width="150" CanUserResize="False" CanUserSort="False">
 						<DataGridTemplateColumn.CellTemplate>
 							<DataTemplate>
 								<VirtualizingStackPanel>
@@ -530,7 +530,7 @@
 							</DataTemplate>
 						</DataGridTemplateColumn.CellTemplate>
 					</DataGridTemplateColumn>
-					<DataGridTemplateColumn CellStyleClasses="centered" IsVisible="{Binding ShowEndorsements}">
+					<DataGridTemplateColumn CellStyleClasses="centered" IsVisible="true">
 						<DataGridTemplateColumn.Header>
 							<TextBlock Text="{i18n:Translate ui.main_window.menu_headers.endorsement}" TextAlignment="Center" />
 						</DataGridTemplateColumn.Header>
@@ -617,7 +617,7 @@
 							</DataTemplate>
 						</DataGridTemplateColumn.CellTemplate>
 					</DataGridTemplateColumn>
-					<DataGridTemplateColumn SortMemberPath="InstallStatus" CellStyleClasses="centered" IsVisible="{Binding ShowInstalls}" >
+					<DataGridTemplateColumn SortMemberPath="InstallStatus" CellStyleClasses="centered" IsVisible="true" >
 						<DataGridTemplateColumn.Header>
 							<TextBlock Text="{i18n:Translate ui.main_window.menu_headers.nexus_install}" TextAlignment="Center"/>
 						</DataGridTemplateColumn.Header>
