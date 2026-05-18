@@ -342,7 +342,7 @@
 					<NativeMenuItem Header="{i18n:Translate ui.main_window.menu_items.disable_all_mods}" Click="DisableAllMods_Click" />
 					<NativeMenuItemSeparator/>
 					<NativeMenuItem Header="{i18n:Translate ui.main_window.menu_items.check_for_stardrop_update}" Click="StardropUpdate_Click" />
-					<NativeMenuItem Header="{i18n:Translate ui.main_window.menu_items.stardrop_repository}" Command="{Binding OpenBrowser}" CommandParameter="https://github.com/Floogen/Stardrop"/>
+					<!-- <NativeMenuItem Header="{i18n:Translate ui.main_window.menu_items.stardrop_repository}" Command="{Binding OpenBrowser}" CommandParameter="https://github.com/Floogen/Stardrop"/> -->
 					<NativeMenuItemSeparator/>
 					<NativeMenuItem Header="{i18n:Translate ui.main_window.menu_items.check_for_SMAPI_update}" Click="SMAPIUpdate_Click" />
 				</NativeMenu>
